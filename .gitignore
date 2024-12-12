@@ -1,0 +1,25 @@
+# Lister les fichiers et dossiers que vous ne voulez pas versionner avec github
+
+# Ignorer le dossier node_modules qui est généré automatiquement
+node_modules/
+
+# Ignorer les fichiers générés par le build
+dist/
+build/
+
+# Ignorer les fichiers de logs
+*.log
+
+# Ignorer les fichiers de configuration locaux sensibles 
+#.env
+
+# Fichiers système à ignorer
+.DS_Store
+Thumbs.db
+
+#Ignorer des fichiers privés
+private/
+personalnotes.md
+
+#Ignorer la Base de Donées
+habitTracker.db
