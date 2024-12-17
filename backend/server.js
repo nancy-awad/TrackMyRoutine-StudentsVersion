@@ -3,7 +3,7 @@
 // 1. Load environment variables using `dotenv` (if you use it)
 const dotenv = require('dotenv').config(); //Load environment variables
 if(dotenv.error){
-    console.error('Error loading.env file:', result.error),
+    console.error('Error loading.env file:', dotenv.error),
     process.exit(1);
 }
 //Now the environment variables are already available to be accessed via process.env.
